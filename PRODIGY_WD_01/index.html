@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gaming Navigation Menu</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@700&display=swap" rel="stylesheet"> <!-- Add Google Font -->
+</head>
+<body>
+    <nav id="gaming-nav">
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#games">Games</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <div class="content">
+        <section id="home">
+            <h1 class="section-title">HOME</h1>
+            <div class="carousel-container">
+                <div class="carousel-slide">
+                    <img src="assets/backgrounds/bg1.jpg" alt="Game 1">
+                    <img src="assets/backgrounds/bg2.jpg" alt="Game 2">
+                    <img src="assets/backgrounds/bg3.jpg" alt="Game 3">
+                    <img src="assets/backgrounds/bg4.jpg" alt="Game 4">
+                    <img src="assets/backgrounds/bg5.jpg" alt="Game 5">
+                </div>
+            </div>
+            <div class="carousel-controls">
+                <button class="prev">❮</button>
+                <button class="next">❯</button>
+            </div>
+        </section>
+
+        <section id="games">
+            <h1 class="section-title">GAMES</h1>
+            <div class="game-grid">
+                <div class="game-block">
+                    <h2>Assassins Creed Mirage®</h2>
+                    <img src="assets/gamess/gm1.jpg" alt="Call of Duty" class="game-image" data-img-src="gm1.jpg">
+                    <p>Assassin's Creed Mirage is a 2023 action-adventure game developed by Ubisoft Bordeaux and published by Ubisoft. The game is the thirteenth major installment in the Assassin's Creed series and the successor to 2020's Assassin's Creed Valhalla.</p>
+                </div>
+                <div class="game-block">
+                    <h2>Assassins Creed Shadows</h2>
+                    <img src="assets/gamess/gm2.jpg" alt="Sins of a Solar Empire II" class="game-image" data-img-src="gm2.jpg">
+                    <p>Assassin's Creed Shadows is an upcoming action role-playing game developed by Ubisoft Quebec and published by Ubisoft. The game is the fourteenth major installment in the Assassin's Creed series and the successor to 2023's Assassin's Creed Mirage.</p>
+                </div>
+                <div class="game-block">
+                    <h2>Far Cry 6</h2>
+                    <img src="assets/gamess/gm3.jpg" alt="Dead by Daylight" class="game-image" data-img-src="gm3.jpg">
+                    <p>Far Cry 6 is a 2021 first-person shooter game developed by Ubisoft Toronto and published by Ubisoft. It is the sixth main installment in the Far Cry series and the successor to 2018's Far Cry 5.</p>
+                </div>
+                <div class="game-block">
+                    <h2>TomClancys Ghost Recon Breakpoint</h2>
+                    <img src="assets/gamess/gm4.jpg" alt="FINAL FANTASY XIV Online" class="game-image" data-img-src="gm4.jpg">
+                    <p>Tom Clancy's Ghost Recon Breakpoint is an online tactical shooter video game developed by Ubisoft Paris and published by Ubisoft. The game was released worldwide on 4 October 2019 for PlayStation 4, Windows, and Xbox One, and on 18 December 2019 for Stadia.</p>
+                </div>
+                <div class="game-block">
+                    <h2>TomClancys RainbowSix Extraction</h2>
+                    <img src="assets/gamess/gm5.jpg" alt="Once Human" class="game-image" data-img-src="gm5.jpg">
+                    <p>Tom Clancy's Rainbow Six Extraction (originally known as Tom Clancy's Rainbow Six Quarantine) is an online multiplayer tactical shooter video game developed by Ubisoft Montreal and published by Ubisoft. A spin-off of Rainbow Six Siege (2015), Extraction is a cooperative multiplayer game in which players must work together to combat and defeat a type of parasite-like aliens called the Archæans.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h1 class="section-title">CONTACT</h1>
+            <div class="contact-links">
+                <a href="https://www.linkedin.com/in/hafiz-noushad-56780b268" target="_blank">
+                    <img src="assets/miscs/linkedinicon.png" alt="LinkedIn" class="contact-icon">
+                </a>
+                <a href="https://github.com/hafiznoushad" target="_blank">
+                    <img src="assets/miscs/githubicon.png" alt="GitHub" class="contact-icon">
+                </a>
+            </div>
+        </section>
+    </div>
+
+    <div id="image-popup" class="popup">
+        <span class="close">&times;</span>
+        <img class="popup-content" id="popup-img">
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
